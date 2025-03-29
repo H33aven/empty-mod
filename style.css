@@ -103,6 +103,11 @@ box-sizing: border-box;
   color: rgb(227, 227, 227);
 }
 
+.vsec{
+  display: flex;
+  flex-direction: row;
+}
+
 .menu{
 padding: 0px 20px ;
 display: flex;
@@ -133,7 +138,7 @@ bottom: -17px;
 width: 100%;
 height: 2px;
 color:rgb(172, 172, 172); text-decoration: none;
-background-color: rgb(29, 29, 29,0);
+background-color: rgb(27, 27, 27,0);
 transition: all 0.2s;
 }
 
@@ -186,7 +191,7 @@ box-shadow: inset 0px 0px 29px 24px rgb(27, 27, 27, 0.5);
 background: url(imgs/BGMc.png) center center no-repeat;
 background-size: cover;
 padding: 100px 0px 140px 0px;
-box-shadow: inset 0px 0px 29px 24px rgb(88, 88, 88, 0.5);
+box-shadow: inset 0px 0px 29px 24px rgb(27, 27, 27, 0.5);
 }
 
 .hello{
@@ -218,13 +223,20 @@ font-size: 2.75rem;
 }
 
 .work_text{
-padding: 0px 40px;
+padding: 0px 15px;
+width: 100%;
 }
 
 .roles_wrap{
   background-position: center;
   background: rgb(20,20,20);
   padding: 50px 0px ;
+}
+
+.roles_wraper{
+  background-position: center;
+  background: rgb(20,20,20);
+  padding: 5px 0px ;
 }
 
 .paddingworktext{
@@ -403,6 +415,10 @@ color:rgb(175, 175, 175);
 
 .paddingworktext6{
 padding: 10px 30px; color:rgb(175, 175, 175);
+}
+
+.paddingworktext333{
+  color:rgb(175, 175, 175);
 }
 
 /*
@@ -592,10 +608,17 @@ box-shadow: 0px 0px 21px 4px rgba(255, 255, 255, 0.5);
 
 .work_textet{
 max-width: 1500px;
-padding-left: 20px 20px;
 display: flex;
+padding-left: 20px 20px;
 flex-direction: column;
 text-align:start;
+}
+
+.work_textete{
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
 }
 
 .work_imagei{
