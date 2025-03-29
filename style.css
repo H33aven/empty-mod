@@ -43,6 +43,7 @@ box-sizing: border-box;
 }
 
 .header{
+  position: relative;
   transition: all;
   transition-duration: 1s;
   display: flex;
@@ -64,6 +65,7 @@ box-sizing: border-box;
 }
 
 .header:hover{
+  position: relative;
   transition: all;
   transition-duration: 1s;
   display: flex;
@@ -88,22 +90,22 @@ box-sizing: border-box;
   font-size: larger;
   display: flex;
   transition-duration: 0s;
-  position: fixed;
-  margin-left: 70px;
-  margin-top:16px ;
+  position: absolute;
+  top: 33%;
+  left:100px;
   text-decoration: none;
-  color: rgb(240, 240, 240);
+  color: rgb(227, 227, 227);
 }
 
 .logotext1{
   font-size: larger;
   display: flex;
   transition-duration: 0s;
-  position: fixed;
-  margin-right: 70px;
-  margin-top:16px ;
+  position: absolute;
+  top: 33%;
+  right:60px;
   text-decoration: none;
-  color: rgb(240, 240, 240);
+  color: rgb(227, 227, 227);
 }
 
 .menu{
@@ -198,9 +200,11 @@ text-align: center;
 
 .Discordlogo{
   text-align: right;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   flex-direction: row-reverse;
+  position: absolute;
+  right: 230px;
 }
 
 .twinmoon_text{
