@@ -207,6 +207,25 @@ text-align: center;
   right: 350px;
 }
 
+.Discordlogo1{
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  position: absolute;
+  right: 490px;
+}
+
+.Discordlogo2{
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  position: absolute;
+  right: 645px;
+}
+
+
 .twinmoon_text{
 padding: 70px;
 }
