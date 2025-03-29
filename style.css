@@ -28,10 +28,6 @@ body {
   line-height: 1.25;
   font-size: 1rem;
   background: rgb(27,27,27);
-  background: -moz-linear-gradient(180deg, rgba(27,27,27,1) 0%, rgba(60,60,60,1) 10%, rgba(27,27,27,1) 20%, rgba(60,60,60,1) 30%, rgba(27,27,27,1) 40%, rgba(60,60,60,1) 50%, rgba(27,27,27,1) 60%, rgba(60,60,60,1) 70%, rgba(27,27,27,1) 80%, rgba(60,60,60,1) 90%, rgba(27,27,27,1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(27,27,27,1) 0%, rgba(60,60,60,1) 10%, rgba(27,27,27,1) 20%, rgba(60,60,60,1) 30%, rgba(27,27,27,1) 40%, rgba(60,60,60,1) 50%, rgba(27,27,27,1) 60%, rgba(60,60,60,1) 70%, rgba(27,27,27,1) 80%, rgba(60,60,60,1) 90%, rgba(27,27,27,1) 100%);
-  background: linear-gradient(180deg, rgba(27,27,27,1) 0%, rgba(60,60,60,1) 10%, rgba(27,27,27,1) 20%, rgba(60,60,60,1) 30%, rgba(27,27,27,1) 40%, rgba(60,60,60,1) 50%, rgba(27,27,27,1) 60%, rgba(60,60,60,1) 70%, rgba(27,27,27,1) 80%, rgba(60,60,60,1) 90%, rgba(27,27,27,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b1b1b",endColorstr="#1b1b1b",GradientType=1); 
 }
 
 .wrap{
