@@ -85,7 +85,6 @@ box-sizing: border-box;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d1d1d",endColorstr="#1d1d1d",GradientType=1); 
   z-index: 999;
 }
-
 .logotext{
   font-size: larger;
   display: flex;
